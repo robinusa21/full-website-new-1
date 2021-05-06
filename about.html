@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href=""><i class="fas fa-university">University</i></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" oneclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" oneclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        
+    </section>
+
+<!--------------About Us Content-------------->
+    
+<Section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>It's best course offer for in world University.The best course offer for in world University ay lo moja paisiosos.<br>He best course offer for in world University.The best course offer for in world University.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="img/pexels-cottonbro-4778621.jpg" alt="show-8">
+        </div>
+    </div>
+</Section>
+
+
+
+
+<!---------------------Footer ---------------->
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>It's best course offer for in world University.The best course offer for in world University ay lo moja paisiosos.<br>He best course offer for in world University.The best course offer for in world University.</p>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <p>Made With <i class="far fa-heart"></i> by Easy Tutorials</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-------- JavaScript for Toggle Menu -------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+       
+    </script>
+
+
+
+
+<script text="text/javascript" src="script.js"></script>
+</body>
+</html>
